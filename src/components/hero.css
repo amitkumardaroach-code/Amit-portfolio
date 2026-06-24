@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  background: #020611;
+  color: white;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero {
+  min-height: 100vh;
+  background: radial-gradient(circle at top right, #06213e, #020611 55%);
+  padding: 35px 6%;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.logo span {
+  color: #00cfff;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-links li {
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+}
+
+.nav-links li:hover,
+.nav-links .active {
+  color: #00cfff;
+}
+
+.nav-links .active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: #00cfff;
+  bottom: -8px;
+  left: 0;
+  border-radius: 10px;
+}
+
+/* =========================
+   HERO CONTENT
+========================= */
+
+.hero-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 10px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+/* =========================
+   LEFT SIDE
+========================= */
+
+.hero-left {
+  flex: 1;
+  max-width: 900px;
+}
+.hero-left h1 {
+  font-size: clamp(1rem, 5vw, 4rem);
+  line-height: 1;
+  font-weight: 800;
+}
+
+.hero-left h1 span {
+  color: #00cfff;
+}
+
+.hero-left h3 {
+  margin-top: 15px;
+  font-size: clamp(1.1rem, 2vw, 1.8rem);
+  font-weight: 400;
+  color: #c6c6c6;
+}
+
+.description {
+  margin-top: 25px;
+  color: #c8c8c8;
+  line-height: 1.8;
+  border-left: 3px solid #00cfff;
+  padding-left: 18px;
+}
+
+/* =========================
+   SKILLS
+========================= */
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.skill-box {
+  padding: 12px 18px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 207, 255, 0.25);
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+}
+
+.skill-box:hover {
+  transform: translateY(-4px);
+  border-color: #00cfff;
+}
+
+/* =========================
+   RIGHT SIDE
+========================= */
+
+.hero-right {
+height:100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-canvas {
+  width: min(600px, 100%);
+  height:600px;
+  filter: drop-shadow(0 0 40px rgba(0, 212, 255, 0.7));
+}
+
+/* =========================
+   IMAGE
+========================= */
+
+@media (min-width: 1600px) {
+  .hero-container {
+    max-width: 2200px;
+    margin: 10px auto;
+  padding: 80px 0;
+  
+
+    gap: 1rem;
+  }
+
+  .hero-left {
+    max-width: 1000px;
+  }
+
+  .hero-left h1 {
+    font-size: 7rem;
+  }
+
+  .hero-left h3 {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1.2rem;
+    max-width: 800px;
+  }
+ 
+ 
+}
+
+
+/* =========================
+big screen
+========================= */
+
+@media (max-width: 1024px) {
+  .hero-container {
+    gap: 3rem;
+  }
+
+  .hero-canvas {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto;
+    padding: 20px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .hero-left {
+    width: 100%;
+  }
+
+  /* Hide 3D model on mobile */
+.hero-right {
+height:100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-canvas {
+  width: min(600px, 100%);
+  height:250px;
+  filter: drop-shadow(0 0 40px rgba(0, 212, 255, 0.7));
+}
+
+  .description {
+    border-left: none;
+    border-top: 3px solid #00cfff;
+    padding: 15px 0 0;
+  }
+
+  .skills {
+    justify-content: center;
+  }
+}
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 2rem;
+  }
+
+  .hero-left h1 {
+    font-size: 2.7rem;
+  }
+
+  .hero-left h3 {
+    font-size: 1rem;
+  }
+
+  .skills {
+    gap: 10px;
+  }
+
+  .skill-box {
+    padding: 10px 14px;
+    font-size: 0.9rem;
+  }
+  
+}
