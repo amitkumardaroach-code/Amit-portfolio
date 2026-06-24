@@ -4,19 +4,19 @@ import { useState } from "react";
 const videos = [
   {
     title: "Side View",
-    src: "/src/Video/Walkcycle_side.mp4",
+    src: "/Video/Walkcycle_side.mp4",
   },
   {
     title: "Front View",
-    src: "/src/Video/Walkcycle_front.mp4",
+    src: "/Video/Walkcycle_front.mp4",
   },
   {
     title: "Back View",
-    src: "/src/Video/Walkcycle_Top.mp4",
+    src: "/Video/Walkcycle_Top.mp4",
   },
   {
     title: "3/4 Back View",
-    src: "/src/Video/Walkcycle_back.mp4",
+    src: "/Video/Walkcycle_back.mp4",
   },
 ];
 
