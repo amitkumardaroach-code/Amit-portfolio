@@ -12,11 +12,11 @@ const videos = [
   },
   {
     title: "Back View",
-    src: "/Video/Walkcycle_Top.mp4",
+    src: "/Video/Walkcycle_back.mp4",
   },
   {
     title: "3/4 Back View",
-    src: "/Video/Walkcycle_back.mp4",
+    src: "/Video/Walkcycle_Top.mp4",
   },
 ];
 
