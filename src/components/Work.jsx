@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "Realistic Character",
     category: "3D Characters",
     tag: "3D Character",
-    image: "/public/image/Dusky/Dusky_thumbnail.png",
+    image: "/image/Dusky/Dusky_thumbnail.png",
     description: "Game-ready stylized dog character.",
     software: "Blender, Substance 3D Painter",
     renderEngine: "Cycles",
@@ -52,47 +52,47 @@ export const projects = [
     about:
       "This stylized dog character was created as a game-ready asset using Blender and Substance 3D Painter. The workflow included high-poly sculpting, retopology, UV unwrapping, baking, and PBR texturing. The character is optimized for real-time use while maintaining clean topology and efficient UVs.",
     thumbnails: [
-      "/public/image/Dusky/Dusky_side.png",
-      "/public/image/Dusky/Dusky_face.png",
-      "/public/image/Dusky/Dusky_Back.png",
-      "/public/image/Dusky/Dusky_top.png",
+      "/image/Dusky/Dusky_side.png",
+      "/image/Dusky/Dusky_face.png",
+      "/image/Dusky/Dusky_Back.png",
+      "/image/Dusky/Dusky_top.png",
     ],
-    mainImage: "/public/image/Dusky/Dusky.png",
+    mainImage: "/image/Dusky/Dusky.png",
 
     panels: [
       {
         label: "Wireframe",
-        image: "/public/image/Dusky/Wireframe.png",
+        image: "/image/Dusky/Wireframe.png",
         hasDrag: false,
       },
       {
         label: "Wireframe Perspective View",
-        image: "/public/image/Dusky/Wireframe_side.png",
+        image: "/image/Dusky/Wireframe_side.png",
         hasDrag: false,
       },
       {
         label: "Wireframe Rear View",
-        image: "/public/image/Dusky/Wireframe_back.png",
+        image: "/image/Dusky/Wireframe_back.png",
         hasDrag: false,
       },
       {
         label: "UV Layout",
-        image: "/public/image/Dusky/UV.png",
+        image: "/image/Dusky/UV.png",
         hasDrag: true,
       },
     ],
     textures: [
       {
         label: "Albedo",
-        image: "/public/image/Dusky/Texture/Base_color.png",
+        image: "/image/Dusky/Texture/Base_color.png",
       },
       {
         label: "Normal",
-        image: "/public/image/Dusky/Texture/Normal_OpenGL.png",
+        image: "/image/Dusky/Texture/Normal_OpenGL.png",
       },
       {
         label: "Roughness",
-        image: "/public/image/Dusky/Texture/Roughness.png",
+        image: "/image/Dusky/Texture/Roughness.png",
       },
     ],
   },
@@ -102,7 +102,7 @@ export const projects = [
     subtitle: "Realistic Character",
     category: "3D Characters",
     tag: "3D Character",
-    image: "/public/image/River/River_thumbnail.png",
+    image: "/image/River/River_thumbnail.png",
     description: "Stylized female character featuring clean topology.",
     date: "January 2024",
     software: "Blender, Substance 3D Painter",
@@ -135,58 +135,58 @@ export const projects = [
     about:
       "This stylized female character was created with a focus on appealing facial features, clean topology, and animation-ready geometry. The character was modeled in Blender, while the skin textures were created in Substance 3D Painter using a PBR workflow",
     thumbnails: [
-      "/public/image/River/River_Face.png",
-      "/public/image/River/River_front.png",
-      "/public/image/River/River_side.png",
-      "/public/image/River/River_Back.png",
+      "/image/River/River_Face.png",
+      "/image/River/River_front.png",
+      "/image/River/River_side.png",
+      "/image/River/River_Back.png",
     ],
-    mainImage: "/public/image/River/River_Face.png",
+    mainImage: "/image/River/River_Face.png",
     panels: [
       {
         label: "Face Wireframe",
-        image: "/public/image/River/wireframeAndUV/River_wireframe_face.png",
+        image: "/image/River/wireframeAndUV/River_wireframe_face.png",
         hasDrag: false,
       },
       {
         label: "Face UV Layout",
-        image: "/public/image/River/wireframeAndUV/Face UV.png",
+        image: "/image/River/wireframeAndUV/Face UV.png",
         hasDrag: false,
       },
       {
         label: "Hand Wireframe",
-        image: "/public/image/River/wireframeAndUV/River_wireframe_Hand.png",
+        image: "/image/River/wireframeAndUV/River_wireframe_Hand.png",
         hasDrag: false,
       },
       {
         label: "Hand UV Layout",
-        image: "/public/image/River/wireframeAndUV/Hand UV.png",
+        image: "/image/River/wireframeAndUV/Hand UV.png",
         hasDrag: true,
       },
     ],
     textures: [
       {
         label: "Skin Albedo",
-        image: "/public/image/River/Textures/river_Skin_Color.png",
+        image: "/image/River/Textures/river_Skin_Color.png",
       },
       {
         label: "Skin Normal",
-        image: "/public/image/River/Textures/river_Skin_Normal.png",
+        image: "/image/River/Textures/river_Skin_Normal.png",
       },
       {
         label: "Skin Roughness",
-        image: "/public/image/River/Textures/river_Skin_Roughness.png",
+        image: "/image/River/Textures/river_Skin_Roughness.png",
       },
       {
         label: "Hand Albedo",
-        image: "/public/image/River/Textures/river_Hand_color.png",
+        image: "/image/River/Textures/river_Hand_color.png",
       },
       {
         label: "Hand Normal",
-        image: "/public/image/River/Textures/river_Hand_Normal.png",
+        image: "/image/River/Textures/river_Hand_Normal.png",
       },
       {
         label: "Hand Roughness",
-        image: "/public/image/River/Textures/river_Hand_Roughness.png",
+        image: "/image/River/Textures/river_Hand_Roughness.png",
       },
     ],
   },
@@ -196,7 +196,7 @@ export const projects = [
     subtitle: "3D Vehicle Model",
     category: "Vehicles",
     tag: "Vehicle",
-    image: "/public/image/Car/Car_thumbnail.png",
+    image: "/image/Car/Car_thumbnail.png",
     description: "Detailed classic muscle car.",
     date: "February 2024",
     software: "Blender",
@@ -227,31 +227,31 @@ export const projects = [
     about:
       "These high-poly leather boots were created using a subdivision modeling workflow with a focus on clean topology, accurate footwear construction, and realistic leather materials",
     thumbnails: [
-      "/public/image/Car/Car_render_front.png",
-      "/public/image/Car/Car_render_side.png",
-      "/public/image/Car/Car_render_Back.png",
-      "/public/image/Car/Car_render_bumper.png",
+      "/image/Car/Car_render_front.png",
+      "/image/Car/Car_render_side.png",
+      "/image/Car/Car_render_Back.png",
+      "/image/Car/Car_render_bumper.png",
     ],
-    mainImage: "/public/image/Car/Car_render_front.png",
+    mainImage: "/image/Car/Car_render_front.png",
     panels: [
       {
         label: "Wireframe Perspective",
-        image: "/public/image/Car/Car_wireframe_front.png",
+        image: "/image/Car/Car_wireframe_front.png",
         hasDrag: false,
       },
       {
         label: "Wireframe Detail",
-        image: "/public/image/Car/Car_wireframe.png",
+        image: "/image/Car/Car_wireframe.png",
         hasDrag: false,
       },
       {
         label: "Additional Wireframe View",
-        image: "/public/image/Car/Car_wireframe_top.png",
+        image: "/image/Car/Car_wireframe_top.png",
         hasDrag: false,
       },
       {
         label: "Clay Preview",
-        image: "/public/image/Car/Car_clay_render.png",
+        image: "/image/Car/Car_clay_render.png",
         hasDrag: true,
       },
     ],
@@ -294,7 +294,7 @@ export const projects = [
     subtitle: "3D Vehicle Model",
     category: "Props",
     tag: "Prop",
-    image: "/public/image/Barrel/Barrel_Thumbnail.jpg",
+    image: "/image/Barrel/Barrel_Thumbnail.jpg",
     description: "High-poly oil barrel",
     date: "February 2024",
     software: "Autodesk Maya, Substance 3D Painter",
@@ -328,45 +328,45 @@ export const projects = [
     thumbnails: [
       // "image/Barrel/render.jpg"
     ],
-    mainImage: "/public/image/Barrel/Barrel_front.jpg",
+    mainImage: "/image/Barrel/Barrel_front.jpg",
     panels: [
       {
         label: "Wireframe Perspective",
-        image: "/public/image/Barrel/Barrel_wireframe.png",
+        image: "/image/Barrel/Barrel_wireframe.png",
         hasDrag: false,
       },
       {
         label: "Clay Preview",
-        image: "/public/image/Barrel/Barrel_clay.jpg",
+        image: "/image/Barrel/Barrel_clay.jpg",
         hasDrag: false,
       },
       {
         label: "Front View",
-        image: "/public/image/Barrel/Barrel_front.jpg",
+        image: "/image/Barrel/Barrel_front.jpg",
         hasDrag: false,
       },
       {
         label: "Top View",
-        image: "/public/image/Barrel/Barrel_Top.jpg",
+        image: "/image/Barrel/Barrel_Top.jpg",
         hasDrag: true,
       },
     ],
     textures: [
       {
         label: "Albedo",
-        image: "/public/image/Barrel/Textures/Texture_Base_color.png",
+        image: "/image/Barrel/Textures/Texture_Base_color.png",
       },
       {
         label: "Normal",
-        image: "/public/image/Barrel/Textures/Texture_Normal_OpenGL.png",
+        image: "/image/Barrel/Textures/Texture_Normal_OpenGL.png",
       },
       {
         label: "Roughness",
-        image: "/public/image/Barrel/Textures/Texture_Roughness.png",
+        image: "/image/Barrel/Textures/Texture_Roughness.png",
       },
       {
         label: "Metallic  ",
-        image: "/public/image/Barrel/Textures/Texture_Metallic.png",
+        image: "/image/Barrel/Textures/Texture_Metallic.png",
       },
     ],
   },
@@ -376,7 +376,7 @@ export const projects = [
     subtitle: "3D Jean Model",
     category: "Clothing",
     tag: "Clothing",
-    image: "/public/image/Lock/Denim/jean_Thumbnail.png",
+    image: "/image/Lock/Denim/jean_Thumbnail.png",
     description:
       "High-poly denim jeans created using a multiresolution workflow..",
     date: "February 2024",
@@ -415,46 +415,46 @@ export const projects = [
       // "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=200&q=80",
       // "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=200&q=80",
     ],
-    mainImage: "/public/image/Lock/Denim/jean_front.png",
+    mainImage: "/image/Lock/Denim/jean_front.png",
     panels: [
       {
         label: "Clay Render",
-        image: "/public/image/Lock/Denim/jean_clay_render.png",
+        image: "/image/Lock/Denim/jean_clay_render.png",
         hasDrag: false,
       },
       {
         label: "Side View",
-        image: "/public/image/Lock/Denim/jean_Side.png",
+        image: "/image/Lock/Denim/jean_Side.png",
         hasDrag: false,
       },
 
       {
         label: "Front View ",
-        image: "/public/image/Lock/Denim/jean_front.png",
+        image: "/image/Lock/Denim/jean_front.png",
         hasDrag: false,
       },
       {
         label: "Back View ",
-        image: "/public/image/Lock/Denim/jean_Back.png",
+        image: "/image/Lock/Denim/jean_Back.png",
         hasDrag: true,
       },
     ],
     textures: [
       {
         label: "Albedo",
-        image: "/public/image/Lock/Denim/Denim_Diffuse.png",
+        image: "/image/Lock/Denim/Denim_Diffuse.png",
       },
       {
         label: "Normal",
-        image: "/public/image/Lock/Denim/Denim_Normal.png",
+        image: "/image/Lock/Denim/Denim_Normal.png",
       },
       {
         label: "Roughness",
-        image: "/public/image/Lock/Denim/Denim_Roughness.png",
+        image: "/image/Lock/Denim/Denim_Roughness.png",
       },
       {
         label: "Displacement",
-        image: "/public/image/Lock/Denim/Denim_Displacement.png",
+        image: "/image/Lock/Denim/Denim_Displacement.png",
       },
     ],
   },
@@ -464,7 +464,7 @@ export const projects = [
     subtitle: "3D Jacket Model",
     category: "Clothing",
     tag: "Clothing",
-    image: "/public/image/River/Jacket/Jacket thumbnail.png",
+    image: "/image/River/Jacket/Jacket thumbnail.png",
     description:
       "High-poly leather jacket created using a multiresolution workflow.",
     software: "Blender",
@@ -501,46 +501,46 @@ export const projects = [
       // "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=200&q=80",
       // "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=200&q=80",
     ],
-    mainImage: "/public/image/River/Jacket/Jacket.png",
+    mainImage: "/image/River/Jacket/Jacket.png",
     panels: [
       {
         label: "Clay render",
-        image: "/public/image/River/Jacket/Jacket_clay_render.png",
+        image: "/image/River/Jacket/Jacket_clay_render.png",
         hasDrag: false,
       },
       {
         label: "Side View ",
-        image: "/public/image/River/Jacket/Jacket_side.png",
+        image: "/image/River/Jacket/Jacket_side.png",
         hasDrag: false,
       },
       {
         label: "Front View ",
-        image: "/public/image/River/Jacket/Jacket_front.png",
+        image: "/image/River/Jacket/Jacket_front.png",
         hasDrag: false,
       },
       {
         label: "Back View ",
-        image: "/public/image/River/Jacket/Jacket_back.png",
+        image: "/image/River/Jacket/Jacket_back.png",
         hasDrag: true,
       },
     ],
     textures: [
       {
         label: "Albedo",
-        image: "/public/image/River/Jacket/Jacket_texture/Jacket_Diffuse.png",
+        image: "/image/River/Jacket/Jacket_texture/Jacket_Diffuse.png",
       },
       {
         label: "Normal",
-        image: "/public/image/River/Jacket/Jacket_texture/Jacket_Normal.png",
+        image: "/image/River/Jacket/Jacket_texture/Jacket_Normal.png",
       },
       {
         label: "Roughness",
-        image: "/public/image/River/Jacket/Jacket_texture/Jacket_roughness.png",
+        image: "/image/River/Jacket/Jacket_texture/Jacket_roughness.png",
       },
       {
         label: "Displacement",
         image:
-          "/public/image/River/Jacket/Jacket_texture/Jacket_displacement.png",
+          "/image/River/Jacket/Jacket_texture/Jacket_displacement.png",
       },
     ],
   },
@@ -550,7 +550,7 @@ export const projects = [
     subtitle: "3D Jean Model",
     category: "Clothing",
     tag: "Clothing",
-    image: "/public/image/River/Jean/Jean thumbnail .png",
+    image: "/image/River/Jean/Jean thumbnail .png",
     description:
       "High-poly denim jeans created using a multiresolution workflow..",
     // date: "February 2024",
@@ -587,45 +587,45 @@ export const projects = [
       // "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=200&q=80",
       // "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=200&q=80",
     ],
-    mainImage: "/public/image/River/Jean/Jean_redner_front.png",
+    mainImage: "/image/River/Jean/Jean_redner_front.png",
     panels: [
       {
         label: "Wireframe",
-        image: "/public/image/River/Jean/Jean_clay_redner.png",
+        image: "/image/River/Jean/Jean_clay_redner.png",
         hasDrag: false,
       },
       {
         label: "Side View ",
-        image: "/public/image/River/Jean/Jean_redner_side.png",
+        image: "/image/River/Jean/Jean_redner_side.png",
         hasDrag: false,
       },
       {
         label: "Front View ",
-        image: "/public/image/River/Jean/Jean_redner_front.png",
+        image: "/image/River/Jean/Jean_redner_front.png",
         hasDrag: false,
       },
       {
         label: "Back View ",
-        image: "/public/image/River/Jean/Jean_redner_back.png",
+        image: "/image/River/Jean/Jean_redner_back.png",
         hasDrag: true,
       },
     ],
     textures: [
       {
         label: "Albedo",
-        image: "/public/image/River/Jean/Jean_texture/Jeans_diffuse.png",
+        image: "/image/River/Jean/Jean_texture/Jeans_diffuse.png",
       },
       {
         label: "Normal",
-        image: "/public/image/River/Jean/Jean_texture/Jeans_Normal.png",
+        image: "/image/River/Jean/Jean_texture/Jeans_Normal.png",
       },
       {
         label: "Roughness",
-        image: "/public/image/River/Jean/Jean_texture/Jeans_rougnhness.png",
+        image: "/image/River/Jean/Jean_texture/Jeans_rougnhness.png",
       },
       {
         label: "Displacement",
-        image: "/public/image/River/Jean/Jean_texture/Jeans_Displacement.png",
+        image: "/image/River/Jean/Jean_texture/Jeans_Displacement.png",
       },
     ],
   },
@@ -635,7 +635,7 @@ export const projects = [
     subtitle: "3D Boots Model",
     category: "Clothing",
     tag: "Clothing",
-    image: "/public/image/River/Boots/Boots Thumbnail.png",
+    image: "/image/River/Boots/Boots Thumbnail.png",
     description: "Low-poly leather boot asset created with 2K PBR textures.",
     date: "February 2024",
     software: "Blender",
@@ -672,45 +672,45 @@ export const projects = [
       // "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=200&q=80",
       // "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=200&q=80",
     ],
-    mainImage: "/public/image/River/Boots/Boots.png",
+    mainImage: "/image/River/Boots/Boots.png",
     panels: [
       {
         label: "Wireframe",
-        image: "/public/image/River/Boots/Boots_Wireframe.png",
+        image: "/image/River/Boots/Boots_Wireframe.png",
         hasDrag: false,
       },
       {
         label: "Clay Render",
-        image: "/public/image/River/Boots/Boots_clay_render.png",
+        image: "/image/River/Boots/Boots_clay_render.png",
         hasDrag: false,
       },
       {
         label: "Front View ",
-        image: "/public/image/River/Boots/Boots_redner_front.png",
+        image: "/image/River/Boots/Boots_redner_front.png",
         hasDrag: false,
       },
       {
         label: "Top View ",
-        image: "/public/image/River/Boots/Boots_redner_Top.png",
+        image: "/image/River/Boots/Boots_redner_Top.png",
         hasDrag: true,
       },
     ],
     textures: [
       {
         label: "Albedo",
-        image: "/public/image/River/Boots/Boots_texture/Boots_diffuse.png",
+        image: "/image/River/Boots/Boots_texture/Boots_diffuse.png",
       },
       {
         label: "Normal",
-        image: "/public/image/River/Boots/Boots_texture/Boots_Normal.png",
+        image: "/image/River/Boots/Boots_texture/Boots_Normal.png",
       },
       {
         label: "Roughness",
-        image: "/public/image/River/Boots/Boots_texture/Boots_roughness.png",
+        image: "/image/River/Boots/Boots_texture/Boots_roughness.png",
       },
       {
         label: "Displacement",
-        image: "/public/image/River/Boots/Boots_texture/Boots_displacement.png",
+        image: "/image/River/Boots/Boots_texture/Boots_displacement.png",
       },
     ],
   },
