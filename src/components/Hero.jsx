@@ -6,7 +6,6 @@ import {
   FaDownload,
   FaVideo,
 } from "react-icons/fa";
-import "./hero.css";
 
 import { SiBlender } from "react-icons/si";
 import { TbBrandAdobePhotoshop, TbBrandAdobeAfterEffect } from "react-icons/tb";

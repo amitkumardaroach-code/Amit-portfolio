@@ -1,4 +1,3 @@
-import "./WalkCycle.css";
 import { useState } from "react";
 
 const videos = [

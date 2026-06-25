@@ -1,4 +1,3 @@
-import "./Footer.css";
 
 function Footer() {
   return (
@@ -20,9 +19,8 @@ function Footer() {
           <h3>Contact</h3>
 
           <a href="mailto:amitkumardarochl@gmail.com">
-            📧 amitkumardarochl@gmail.com
+            amitkumardaroch@gmail.com
           </a>
-
         </div>
 
         <div className="footer-section">
@@ -60,7 +58,6 @@ function Footer() {
           <span>Retopology</span>
           <span>UV Unwrapping</span>
           <span>PBR Texturing</span>
-          <span>Substance 3D Painte</span>
           <span>Basic Animation</span>
         </div>
       </div>
