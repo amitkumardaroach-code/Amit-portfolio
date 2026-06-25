@@ -148,8 +148,10 @@ export default function ProjectDetail({ project, onBack }) {
           </div>
 
           {/* Meta table */}
+          
           <div className="pd-meta-table">
             <div className="pd-meta-row">
+              
               <FiTag /> <span>Category</span>{" "}
               <strong>{project.category}</strong>
             </div>

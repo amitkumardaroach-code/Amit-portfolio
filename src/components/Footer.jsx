@@ -23,7 +23,6 @@ function Footer() {
             📧 amitkumardarochl@gmail.com
           </a>
 
-          <a href="tel:+911234567890">📞 +91 12345 67890</a>
         </div>
 
         <div className="footer-section">
@@ -67,7 +66,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} Amit Daroach | 3D Artist</p>
+        <p> Amit Daroach | 3D Artist</p>
       </div>
     </footer>
   );
