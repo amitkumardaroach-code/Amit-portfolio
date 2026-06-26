@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const videos = [
   {
-    title: "Side View",
+    title: "3/4 Front View",
     src: "/Video/Walkcycle_side.mp4",
   },
   {
@@ -10,7 +10,7 @@ const videos = [
     src: "/Video/Walkcycle_front.mp4",
   },
   {
-    title: "Back View",
+    title: "Side View",
     src: "/Video/Walkcycle_back.mp4",
   },
   {
@@ -22,28 +22,28 @@ const videos = [
 export default function WalkCycle() {
   const [selectedIndex, setSelectedIndex] = useState(null);
   const [isChanging, setIsChanging] = useState(false);
- const nextVideo = () => {
-   setIsChanging(true);
-
-   setTimeout(() => {
-     setSelectedIndex((prev) => (prev === videos.length - 1 ? 0 : prev + 1));
-
-     setTimeout(() => {
-       setIsChanging(false);
-     }, 50);
-   }, 250);
- };
-const prevVideo = () => {
-  setIsChanging(true);
-
-  setTimeout(() => {
-    setSelectedIndex((prev) => (prev === 0 ? videos.length - 1 : prev - 1));
+  const nextVideo = () => {
+    setIsChanging(true);
 
     setTimeout(() => {
-      setIsChanging(false);
-    }, 50);
-  }, 250);
-};
+      setSelectedIndex((prev) => (prev === videos.length - 1 ? 0 : prev + 1));
+
+      setTimeout(() => {
+        setIsChanging(false);
+      }, 50);
+    }, 250);
+  };
+  const prevVideo = () => {
+    setIsChanging(true);
+
+    setTimeout(() => {
+      setSelectedIndex((prev) => (prev === 0 ? videos.length - 1 : prev - 1));
+
+      setTimeout(() => {
+        setIsChanging(false);
+      }, 50);
+    }, 250);
+  };
   return (
     <section className="walk-page">
       <div className="walk-header">
