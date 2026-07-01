@@ -13,6 +13,7 @@ import {
 } from "react-router-dom";
 import WalkCycle from "./components/WalkCycle";
 import Footer from "./components/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 
 function ProjectPage() {
@@ -48,6 +49,7 @@ function App() {
 
         <Route path="/project/:id" element={<ProjectPage />} />
       </Routes>
+      <Analytics />
     </BrowserRouter>
   );
 }
