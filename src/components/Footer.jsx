@@ -63,7 +63,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p> Amit Daroach | 3D Artist</p>
+        <p> Amit Daroch | 3D Artist</p>
       </div>
     </footer>
   );

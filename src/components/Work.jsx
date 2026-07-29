@@ -5,17 +5,11 @@ import { BsGrid3X3Gap } from "react-icons/bs";
 import ProjectDetail from "./ProjectDetail";
 import { useNavigate } from "react-router-dom";
 
-const categories = [
-  "All",
-  "3D Characters",
-   "Props",
-  "Clothing",
-  "Vehicles",
-];
+const categories = ["All", "3D Characters", "Props", "Clothing", "Vehicles"];
 
 export const projects = [
   {
-    id: 1,
+    id: 2,
     title: "Dog Character",
     subtitle: "Realistic Character",
     category: "3D Characters",
@@ -97,7 +91,89 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: 1,
+    title: "Horse Character",
+    subtitle: "Realistic Character",
+    category: "3D Characters",
+    tag: "3D Character",
+    image: "/image/Tinur/Tinur_Thumbnail.png",
+    description: "Game-ready stylized Horse character.",
+    software: "ZBrush, Maya, Substance 3D Painter",
+    renderEngine: "Cycles",
+    TriangleCount: "20,352 ",
+    Texture: "4K (4096×4096)",
+    stats: [
+      // { label: "Vertices", value: "7,115" },
+      // { label: "Edges", value: "14,229" },
+      // { label: "Faces", value: "7,116" },
+      // { label: "Tris", value: "14,226" },
+    ],
+    features: [
+      "Game-ready stylized Horse character",
+      "Clean animation-friendly topology",
+      "High-poly to low-poly workflow",
+      "PBR texturing in Substance 3D Painter",
+      "Efficient UV layout",
+      "4K texture maps",
+    ],
+    pipeline: [
+      "Concept",
+      "Base Modeling",
+      "Retopology",
+      "UV Unwrapping",
+      "Map Baking",
+      "PBR Texturing",
+      "Lighting & Rendering",
+    ],
+    about:
+      "This stylized Horse character was created as a game-ready asset using ZBrush, Maya, and Substance 3D Painter. The workflow included high-poly sculpting, retopology, UV unwrapping, baking, and PBR texturing. The character is optimized for real-time use while maintaining clean topology and efficient UVs.",
+    thumbnails: [
+      "/image/Tinur/Tinur_Side.png",
+      "/image/Tinur/Tinur_front.png",
+      "/image/Tinur/Tinur_Back.png",
+      "/image/Tinur/Tinur_top.png",
+    ],
+    mainImage: "/image/Tinur/Tinur_Side.png",
+
+    panels: [
+      {
+        label: "Wireframe",
+        image: "/image/Tinur/Tinur_wireframe_front.png",
+        hasDrag: false,
+      },
+      {
+        label: "Wireframe Perspective View",
+        image: "/image/Tinur/Tinur_wireframe_Side.png",
+        hasDrag: false,
+      },
+      {
+        label: "Wireframe Rear View",
+        image: "/image/Tinur/Tinur_wireframe_Back.png",
+        hasDrag: false,
+      },
+      {
+        label: "UV Layout",
+        image: "/image/Tinur/Tinur_Uv_layout.png",
+        hasDrag: true,
+      },
+    ],
+    textures: [
+      {
+        label: "Albedo",
+        image: "/image/Tinur/Tinur texture/Base_color.png",
+      },
+      {
+        label: "Normal",
+        image: "/image/Tinur/Tinur texture/Normal_OpenGL.png",
+      },
+      {
+        label: "Roughness",
+        image: "/image/Tinur/Tinur texture/Roughness.png",
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "Female Character",
     subtitle: "Realistic Character",
     category: "3D Characters",
@@ -191,7 +267,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Classic Car",
     subtitle: "3D Vehicle Model",
     category: "Vehicles",
@@ -289,7 +365,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Oil Barrel",
     subtitle: "3D Vehicle Model",
     category: "Props",
@@ -371,7 +447,7 @@ export const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Denim Jean",
     subtitle: "3D Jean Model",
     category: "Clothing",
@@ -459,7 +535,7 @@ export const projects = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "Leather Jacket",
     subtitle: "3D Jacket Model",
     category: "Clothing",
@@ -539,13 +615,12 @@ export const projects = [
       },
       {
         label: "Displacement",
-        image:
-          "/image/River/Jacket/Jacket_texture/Jacket_displacement.png",
+        image: "/image/River/Jacket/Jacket_texture/Jacket_displacement.png",
       },
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: "Denim Jeans",
     subtitle: "3D Jean Model",
     category: "Clothing",
@@ -630,7 +705,7 @@ export const projects = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: "Boots",
     subtitle: "3D Boots Model",
     category: "Clothing",

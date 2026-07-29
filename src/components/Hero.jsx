@@ -33,9 +33,8 @@ export default function Hero() {
           <h3>3D Character Artist</h3>
 
           <p className="description">
-            Self-taught 3D Artist specializing in game-ready characters,
-            clothing assets, and real-time workflows. Experienced with Blender,
-            Autodesk Maya, Substance Painter, and Unreal Engine.
+            3D Character Artist skilled in creating game-ready characters,
+            clothing assets, and real-time workflows.
           </p>
 
           {/* SKILLS */}
@@ -47,6 +46,10 @@ export default function Hero() {
             <div className="skill-box">
               {/* <SiMaya /> */}
               Autodesk Maya
+            </div>
+            <div className="skill-box">
+              {/* <SiMaya /> */}
+              ZBrush
             </div>
 
             <div className="skill-box">Substance 3D Painter</div>

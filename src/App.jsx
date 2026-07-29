@@ -13,7 +13,7 @@ import {
 } from "react-router-dom";
 import WalkCycle from "./components/WalkCycle";
 import Footer from "./components/Footer";
-
+import DetailsSection from "./components/DetailsSection";
 
 function ProjectPage() {
   const { id } = useParams();
@@ -34,8 +34,9 @@ function HomePage() {
     <div className="app">
       <Hero />
       <Works />
-      <WalkCycle/>
-      <Footer/>
+      {/* <DetailsSection/> */}
+      <WalkCycle />
+      <Footer />
     </div>
   );
 }
