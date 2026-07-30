@@ -9,7 +9,7 @@ const categories = ["All", "3D Characters", "Props", "Clothing", "Vehicles"];
 
 export const projects = [
   {
-    id: 2,
+    id: 1,
     title: "Dog Character",
     subtitle: "Realistic Character",
     category: "3D Characters",
@@ -91,7 +91,7 @@ export const projects = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     title: "Horse Character",
     subtitle: "Realistic Character",
     category: "3D Characters",
