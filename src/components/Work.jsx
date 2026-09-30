@@ -10,8 +10,101 @@ const categories = ["All", "3D Characters", "Props", "Clothing", "Vehicles"];
 export const projects = [
   {
     id: 1,
+    title: "Male Character",
+    subtitle: "Stylized Character",
+    category: "3D Characters",
+    tag: "3D Character",
+    image: "image/Player/Player_thumbnail.png",
+    description: "Game-ready stylized Male character.",
+    software: "Blender, Maya, Substance 3D Painter",
+    renderEngine: "Cycles",
+    TriangleCount: "47,224 ",
+    Texture: "2K (2048×2048)",
+    stats: [
+      // { label: "Vertices", value: "7,115" },
+      // { label: "Edges", value: "14,229" },
+      // { label: "Faces", value: "7,116" },
+      // { label: "Tris", value: "14,226" },
+    ],
+    features: [
+      "Stylized Game-Ready Male character",
+      "Animation-friendly topology",
+      "Efficient UV layout",
+      "PBR skin texturing in Substance 3D Painter",
+      "2K texture maps",
+    ],
+    pipeline: [
+      "Concept",
+      "Base Modeling",
+      "Retopology",
+      "UV Unwrapping",
+      "Map Baking",
+      "PBR Texturing",
+      "Lighting & Rendering",
+    ],
+    about:
+      "This stylized Male character was created with a focus on clean topology, and animation-ready geometry. The character was modeled in Blender and retopologized in Maya, while the skin textures were created in Substance 3D Painter using a PBR workflow",
+    thumbnails: [
+      "/image/Player/Front.png",
+      "/image/Player/3_4 side.png",
+      "/image/Player/Front_full.png",
+      "/image/Player/Back.png",
+    ],
+    mainImage: "/image/Player/Front.png",
+
+    panels: [
+      {
+        label: "Clay Preview",
+        image: "/image/Player/Wireframe/Clay.png",
+        hasDrag: false,
+      },
+      {
+        label: "Wireframe View",
+        image: "/image/Player/Wireframe/Wireframe_Front.png",
+        hasDrag: false,
+      },
+      {
+        label: "Wireframe Side View",
+        image: "/image/Player/Wireframe/Wirefram_3_4 side.png",
+        hasDrag: false,
+      },
+      {
+        label: "Wireframe Back View",
+        image: "/image/Player/Wireframe/Wireframe_Back.png",
+        hasDrag: true,
+      },
+    ],
+    textures: [
+      {
+        label: "Face Albedo",
+        image: "/image/Player/Texture/Face_Basecolor.png",
+      },
+      {
+        label: "Face Normal",
+        image: "/image/Player/Texture/Face_Normal.png",
+      },
+      {
+        label: "Face AO",
+        image: "/image/Player/Texture/Face_AO.png",
+      },
+      {
+        label: "Hand Albedo",
+        image: "/image/Player/Texture/Hand_Basecolor.png",
+      },
+      {
+        label: "Hand Normal",
+        image: "/image/Player/Texture/Hand_Normal.png",
+      },
+      {
+        label: "Hand AO",
+        image: "/image/Player/Texture/Hand_AO.png",
+      },
+    ],
+  },
+  {
+    id: 2,
     title: "Dog Character",
-    subtitle: "Realistic Character",
+    subtitle: "Stylized Character",
     category: "3D Characters",
     tag: "3D Character",
     image: "/image/Dusky/Dusky_thumbnail.png",
@@ -91,7 +184,7 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Horse Character",
     subtitle: "Realistic Character",
     category: "3D Characters",
@@ -173,9 +266,9 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Female Character",
-    subtitle: "Realistic Character",
+    subtitle: "Stylized Character",
     category: "3D Characters",
     tag: "3D Character",
     image: "/image/River/River_thumbnail.png",
@@ -267,7 +360,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Classic Car",
     subtitle: "3D Vehicle Model",
     category: "Vehicles",
@@ -365,7 +458,7 @@ export const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Oil Barrel",
     subtitle: "3D Vehicle Model",
     category: "Props",
@@ -447,7 +540,7 @@ export const projects = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "Denim Jean",
     subtitle: "3D Jean Model",
     category: "Clothing",
@@ -535,7 +628,7 @@ export const projects = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: "Leather Jacket",
     subtitle: "3D Jacket Model",
     category: "Clothing",
@@ -620,7 +713,7 @@ export const projects = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: "Denim Jeans",
     subtitle: "3D Jean Model",
     category: "Clothing",
@@ -705,7 +798,7 @@ export const projects = [
     ],
   },
   {
-    id: 9,
+    id: 10,
     title: "Boots",
     subtitle: "3D Boots Model",
     category: "Clothing",
